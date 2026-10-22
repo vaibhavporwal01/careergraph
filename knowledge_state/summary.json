@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "built_at": "2026-10-22T09:01:56+00:00",
+    "source": "Arctic Shift archive",
+    "subreddit": "developersIndia",
+    "threads": 1000,
+    "thread_roles": {
+      "decision": 800,
+      "experience": 200
+    },
+    "date_range": [
+      "2021-02-19",
+      "2026-10-19"
+    ],
+    "comment_kinds": {
+      "noise": 54802,
+      "advice": 12309,
+      "outcome": 267
+    },
+    "node_counts": {
+      "Option": 7,
+      "Factor": 8,
+      "Question": 1000,
+      "Situation": 2093,
+      "Author": 7649,
+      "Advice": 9981,
+      "Outcome": 267
+    },
+    "edge_counts": {
+      "HAS_SITUATION": 1000,
+      "ASKED": 979,
+      "ANSWERS": 9981,
+      "RECOMMENDS": 1671,
+      "GAVE": 9948,
+      "CITES": 6835,
+      "OPPOSES": 412,
+      "CHOSE": 267,
+      "IN_THREAD": 267,
+      "FROM": 267,
+      "MENTIONS": 326,
+      "REPORTED": 265,
+      "SUPPORTS": 39,
+      "DISAGREES": 23,
+      "WAS_IN": 913
+    },
+    "settings": {
+      "type_weight": {
+        "outcome": 3.0,
+        "advice": 1.0
+      },
+      "cred_weights": {
+        "lived": 0.4,
+        "outcomes": 0.3,
+        "upvotes": 0.2,
+        "network": 0.1
+      },
+      "eras": [
+        [
+          "boom",
+          "2021-01-01",
+          0.6
+        ],
+        [
+          "slowdown",
+          "2022-07-01",
+          0.8
+        ],
+        [
+          "current",
+          "2024-01-01",
+          1.0
+        ]
+      ],
+      "match_weights": {
+        "tier": 0.5,
+        "yoe": 0.3,
+        "ctc": 0.2
+      },
+      "min_comments": 10,
+      "max_threads": 800
+    }
+  },
+  "threads_by_year": {
+    "2021": 21,
+    "2022": 90,
+    "2023": 141,
+    "2024": 239,
+    "2025": 307,
+    "2026": 202
+  },
+  "question_situation_field_coverage": {
+    "current_tier": 0.771,
+    "target_tier": 0.651,
+    "yoe": 0.536,
+    "current_ctc": 0.338,
+    "offer_ctc": 0.389,
+    "notice_days": 0.07,
+    "city": 0.158
+  },
+  "advice_stances_by_option": {
+    "accept_service": {
+      "recommends": 819,
+      "opposes": 182
+    },
+    "resign_without_offer": {
+      "opposes": 170,
+      "recommends": 32
+    },
+    "accept_and_keep_interviewing": {
+      "recommends": 212,
+      "opposes": 2
+    },
+    "upskill_then_switch": {
+      "recommends": 60
+    },
+    "wait_for_product": {
+      "recommends": 25,
+      "opposes": 4
+    },
+    "switch_now": {
+      "recommends": 388,
+      "opposes": 51
+    },
+    "negotiate": {
+      "recommends": 135,
+      "opposes": 3
+    }
+  },
+  "outcomes_by_option": {
+    "upskill_then_switch": {
+      "unknown": 24,
+      "good": 21,
+      "mixed": 3,
+      "bad": 10
+    },
+    "wait_for_product": {
+      "bad": 5,
+      "unknown": 20,
+      "good": 7,
+      "mixed": 1
+    },
+    "accept_service": {
+      "bad": 25,
+      "unknown": 62,
+      "good": 22,
+      "mixed": 6
+    },
+    "switch_now": {
+      "unknown": 14,
+      "bad": 3,
+      "good": 12,
+      "mixed": 2
+    },
+    "resign_without_offer": {
+      "bad": 10,
+      "unknown": 16,
+      "mixed": 3,
+      "good": 1
+    }
+  },
+  "factor_mentions": {
+    "pay": {
+      "advice": 2821,
+      "unknown_outcomes": 64,
+      "bad_outcomes": 19,
+      "good_outcomes": 46,
+      "mixed_outcomes": 10
+    },
+    "brand_value": {
+      "advice": 236,
+      "unknown_outcomes": 8,
+      "bad_outcomes": 3,
+      "mixed_outcomes": 1,
+      "good_outcomes": 1
+    },
+    "learning": {
+      "advice": 1925,
+      "unknown_outcomes": 39,
+      "bad_outcomes": 15,
+      "good_outcomes": 18,
+      "mixed_outcomes": 10
+    },
+    "wlb": {
+      "advice": 605,
+      "bad_outcomes": 7,
+      "mixed_outcomes": 5,
+      "good_outcomes": 6,
+      "unknown_outcomes": 9
+    },
+    "job_security": {
+      "advice": 442,
+      "bad_outcomes": 7,
+      "mixed_outcomes": 1,
+      "unknown_outcomes": 5,
+      "good_outcomes": 1
+    },
+    "notice_period": {
+      "advice": 452,
+      "unknown_outcomes": 14,
+      "bad_outcomes": 4,
+      "good_outcomes": 3,
+      "mixed_outcomes": 1
+    },
+    "bench": {
+      "advice": 173,
+      "bad_outcomes": 12,
+      "good_outcomes": 2,
+      "unknown_outcomes": 7,
+      "mixed_outcomes": 1
+    },
+    "bond": {
+      "unknown_outcomes": 4,
+      "advice": 181,
+      "good_outcomes": 1,
+      "bad_outcomes": 2
+    }
+  },
+  "top_authors_by_credibility": [
+    {
+      "name": "FoolForWool",
+      "credibility": 0.8474,
+      "lived": 1.0,
+      "outcomes": 1.0,
+      "upvotes": 0.694,
+      "network": 0.086,
+      "comments": 2,
+      "outcome_reports": 2
+    },
+    {
+      "name": "Strong_Horror_786",
+      "credibility": 0.8391,
+      "lived": 1.0,
+      "outcomes": 1.0,
+      "upvotes": 0.643,
+      "network": 0.105,
+      "comments": 3,
+      "outcome_reports": 2
+    },
+    {
+      "name": "silent_assasin_4238",
+      "credibility": 0.8296,
+      "lived": 1.0,
+      "outcomes": 1.0,
+      "upvotes": 0.592,
+      "network": 0.112,
+      "comments": 5,
+      "outcome_reports": 2
+    },
+    {
+      "name": "wpnewbie2018",
+      "credibility": 0.8179,
+      "lived": 1.0,
+      "outcomes": 1.0,
+      "upvotes": 0.534,
+      "network": 0.111,
+      "comments": 5,
+      "outcome_reports": 2
+    },
+    {
+      "name": "Difficult-Ad-5892",
+      "credibility": 0.8003,
+      "lived": 1.0,
+      "outcomes": 1.0,
+      "upvotes": 0.468,
+      "network": 0.068,
+      "comments": 3,
+      "outcome_reports": 2
+    },
+    {
+      "name": "Character_Wafer3280",
+      "credibility": 0.7359,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.673,
+      "network": 0.512,
+      "comments": 10,
+      "outcome_reports": 1
+    },
+    {
+      "name": "IveWastedMyLifeAgain",
+      "credibility": 0.7313,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.764,
+      "network": 0.285,
+      "comments": 3,
+      "outcome_reports": 1
+    },
+    {
+      "name": "karanbhatt100",
+      "credibility": 0.7181,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.805,
+      "network": 0.07,
+      "comments": 4,
+      "outcome_reports": 1
+    },
+    {
+      "name": "Beginning-Ladder6224",
+      "credibility": 0.7127,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.772,
+      "network": 0.083,
+      "comments": 4,
+      "outcome_reports": 1
+    },
+    {
+      "name": "Scary-Constant-93",
+      "credibility": 0.7061,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.75,
+      "network": 0.061,
+      "comments": 3,
+      "outcome_reports": 1
+    },
+    {
+      "name": "Shinobi2099",
+      "credibility": 0.7041,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.728,
+      "network": 0.085,
+      "comments": 2,
+      "outcome_reports": 1
+    },
+    {
+      "name": "Weekly_Web4853",
+      "credibility": 0.7008,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.72,
+      "network": 0.069,
+      "comments": 2,
+      "outcome_reports": 1
+    },
+    {
+      "name": "OkCryptographer8135",
+      "credibility": 0.6992,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.712,
+      "network": 0.069,
+      "comments": 2,
+      "outcome_reports": 1
+    },
+    {
+      "name": "shikari290",
+      "credibility": 0.6983,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.717,
+      "network": 0.048,
+      "comments": 2,
+      "outcome_reports": 1
+    },
+    {
+      "name": "anon_runner",
+      "credibility": 0.6957,
+      "lived": 1.0,
+      "outcomes": 0.5,
+      "upvotes": 0.689,
+      "network": 0.078,
+      "comments": 2,
+      "outcome_reports": 1
+    }
+  ]
+}

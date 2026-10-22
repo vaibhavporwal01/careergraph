@@ -1,0 +1,35 @@
+{
+ "random_comments": {
+  "labeled": 150,
+  "labels": {
+   "both": 2,
+   "noise": 101,
+   "advice": 44,
+   "outcome": 3
+  },
+  "advice": {
+   "precision": 0.828,
+   "recall": 0.522,
+   "tp": 24,
+   "fp": 5,
+   "fn": 22
+  },
+  "outcome": {
+   "precision": 1.0,
+   "recall": 0.2,
+   "tp": 1,
+   "fp": 0,
+   "fn": 4
+  }
+ },
+ "outcome_stories": {
+  "audited": 50,
+  "still_read_as_story": 50,
+  "really_a_story": 45,
+  "choice_right": 30,
+  "result_right": 19,
+  "story_precision": 0.9,
+  "choice_accuracy": 0.667,
+  "result_accuracy": 0.422
+ }
+}
